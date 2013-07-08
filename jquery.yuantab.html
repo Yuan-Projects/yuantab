@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery yuantab plugin</title>
+        <link rel="stylesheet" href="jquery.yuantab.css" type="text/css">
+    </head>
+    <body>
+        <div class="yuantab">
+            <div class="tab">
+                <span class="current">Home</span><span>Works</span><span>Contact</span><span>About</span>
+            </div>
+            <div class="main">
+                <div class="current">
+                    <p>div1</p>
+                </div>
+                <div>
+                    <p>div2</p>
+                </div>
+                <div>
+                    <p>div3</p>
+                </div>
+                <div>
+                    <p>div4</p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="jquery.yuantab.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){             
+                $('.yuantab').yuantab();
+            });
+        </script>
+    </body>
+</html>
