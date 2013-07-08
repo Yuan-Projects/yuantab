@@ -1,0 +1,31 @@
+
+.yuantab .tab {
+    padding-left: 10px;
+    
+}
+.yuantab .tab span{
+    border: 1px solid gray;
+    padding: 2px 20px;
+    border-bottom-width: 0;
+    border-radius: 3px;
+    cursor:pointer 
+}
+.yuantab .tab span.current {
+    background-color: white;
+    font-weight: bold;
+}
+
+
+.yuantab .main {
+    width: 800px;
+    
+}
+.yuantab .main div {
+    display: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+.yuantab .main div.current {
+    display: block;
+}
